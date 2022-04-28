@@ -1,0 +1,11 @@
+{
+  "name": "grantcreates3.0",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/grantmontgomery/grantcreates3.0",
+  "author": "grantmontgomery",
+  "license": "MIT",
+  "scripts": {
+    "start": "go run ."
+  }
+}

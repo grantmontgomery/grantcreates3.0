@@ -6,22 +6,19 @@
   "author": "grantmontgomery",
   "license": "MIT",
   "scripts": {
-    "start": "go run ."
+    "start": "webpack && go run ."
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",
+    "@babel/preset-typescript": "^7.16.7",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.2.9",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.4",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.8.1",
     "webpack-merge": "^5.8.0"
-  },
-  "dependencies": {
-    "-": "^0.0.1",
-    "@babel/preset-typescript": "^7.16.7",
-    "D": "^1.0.0"
   }
 }

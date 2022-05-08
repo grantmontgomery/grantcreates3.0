@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack && go run .",
-    "build": "webpack && mkdir bin && go build -o bin",
+    "build": "webpack",
     "production": "start ./bin/grantcreates3.0.exe"
   },
   "devDependencies": {

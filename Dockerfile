@@ -7,11 +7,15 @@ RUN yarn install
 RUN yarn build
 
 FROM golang:latest
-RUN export GO111MODULE=on
+
+
+WORKDIR /
 COPY go.mod .
-RUN go get github.com/grantmontgomery/grantcreates3.0
-RUN mkdir /out
+RUN export GO111MODULE=on
+RUN go mod download
+COPY . .
+RUN mkdir out
 RUN go build -o out
 
-
-CMD ["start","./out/grantcreates3.0.exe"]
+ENTRYPOINT ["/out/grantcreates3.0"]
+CMD ["start"]

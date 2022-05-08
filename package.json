@@ -6,7 +6,8 @@
   "author": "grantmontgomery",
   "license": "MIT",
   "scripts": {
-    "start": "webpack && go run ."
+    "start": "webpack && go run .",
+    "build": "webpack && go build ."
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",

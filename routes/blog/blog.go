@@ -11,5 +11,5 @@ func serveArticle (w http.ResponseWriter, r *http.Request) {
 }
 
 func RunBlogPathHandler() {
-	http.HandleFunc("/blog/*", serveArticle )
+	http.HandleFunc("/blog/", serveArticle )
 }

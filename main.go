@@ -1,19 +1,18 @@
 package main
 
 import (
+	"log"
 	"net/http"
+
+	"github.com/grantmontgomery/grantcreates3.0/routes"
 )
 
-
-func helloworld(w http.ResponseWriter, r *http.Request){
-w.Write([]byte("Hello World!"))
-}
 
 
 
 func main() {
-	http.HandleFunc("/", helloworld)
-	http.ListenAndServe(":3000", nil)
+	routes.RunRouteHandlers()
+	log.Fatal(http.ListenAndServe(":3000", nil))
 }
 
 

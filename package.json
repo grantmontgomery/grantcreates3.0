@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack && go run .",
-    "build": "webpack && go build ."
+    "build": "webpack && go build -o bin"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",

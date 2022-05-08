@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/grantmontgomery/grantcreates3.0/routes/blog"
+	"github.com/grantmontgomery/grantcreates3.0/server/routes/blog"
 )
 
 

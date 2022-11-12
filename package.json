@@ -2,15 +2,18 @@
   "name": "grantcreates3.0",
   "version": "1.0.0",
   "description": "3rd version of my site",
-  "main": "index.js",
+  "private": "true",
   "repository": "https://github.com/grantmontgomery/grantcreates3.0.git",
   "author": "Grant Montgomery <grant@grantcreates.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/webpack": "^5.28.0",
     "babel-loader": "^9.1.0",
-    "typescript": "^4.8.4"
+    "typescript": "^4.8.4",
+    "webpack-cli": "^4.10.0"
   },
   "dependencies": {
     "webpack": "^5.75.0"

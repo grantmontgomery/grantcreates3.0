@@ -1,0 +1,15 @@
+{
+  "name": "grantcreates3.0",
+  "version": "1.0.0",
+  "description": "3rd version of my site",
+  "main": "index.js",
+  "repository": "https://github.com/grantmontgomery/grantcreates3.0.git",
+  "author": "Grant Montgomery <grant@grantcreates.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "webpack": "^5.75.0"
+  }
+}
